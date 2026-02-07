@@ -55,6 +55,7 @@ implementation("com.willfp:libreforge:$libreforgeVersion")
     tasks {
         shadowJar {
             relocate("com.willfp.libreforge.loader", "com.willfp.ecoitems.libreforge.loader")
+relocate("com.willfp.libreforge", "com.willfp.ecoitems.libreforge")
         }
 
         compileKotlin {
